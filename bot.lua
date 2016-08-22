@@ -71,7 +71,7 @@ end
 function msg_processor(msg)
 if msg.text == '/start' then
 sendMessage(msg.chat.id,'bot running ...',true)
-local oo = io.popen('cd .. ; cd DBTeam ; killall screen ; killall tmux ; killall telegram-cli ; screen ./launch.sh" ')
+local oo = io.popen('cd .. ; cd DBTeam ; killall screen ; killall tmux ; killall telegram-cli ; screen ./launch.sh ')
 		end
 	end
 
